@@ -1,0 +1,16 @@
+web:
+  replicas: 2
+  image: curology-takehome
+  tag: latest
+  command: ['gunicorn']
+  args:
+    - '--bind'
+    - '0.0.0.0:8000'
+    - 'main:app'
+  resources:
+    requests:
+      memory: 128Mi
+      cpu: 100m
+    limits:
+      memory: 256Mi
+      cpu: 200m
