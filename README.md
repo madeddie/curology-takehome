@@ -1,6 +1,7 @@
 # Curology takehome exercise
 
-This project consists of:
+This project is a takehome test by Edwin Hermans for Curology, for the Senior SRE position.
+It consists of:
 
 - an exceedingly simple web app written in Python using the Flask framework and the Gunicorn WSGI server
 - Dockerfile to build Python container with the web app
